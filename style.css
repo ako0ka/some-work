@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: blanchedalmond;
+   height: 100vh;
+}
+
+.main{
+   text-align: center;
+   padding: 36px;
+   border-radius: 5px;
+   background-color: cadetblue;
+   flex: 0 0 80%;
+}
+
+#btn{
+    border: none;
+    color: #fff;
+    background-color: #d8d8d8;
+    font-size: 1.3rem;
+    padding: 0.25rem 0.5rem;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+#btn:hover{
+    color: #ffd000;
+} 
+
+

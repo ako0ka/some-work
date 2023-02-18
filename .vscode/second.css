@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: blanchedalmond;
+   height: 100vh;
+}
+
+.container{
+    background-color: aqua;
+    padding: 50px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.wrapp {
+    display: flex;
+    flex-direction: column;
+}
+.messageInput {
+    height: 35px;
+    border-radius: 10px;
+}
+
+#btn{
+    margin-top: 5px;
+    border: none;
+    color:  #fff;
+    background-color: #d8d8d8;
+    font-size: 1.3rem;
+    padding: 0.25rem 0.5rem;
+    border-radius: 7px;
+    cursor: pointer;
+} 
